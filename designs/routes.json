@@ -1,0 +1,18 @@
+{
+    "routes": [
+        {
+            "path": "index",
+            "component": "indexComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "index",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

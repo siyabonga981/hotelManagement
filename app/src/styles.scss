@@ -1,0 +1,114 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+/* Imported theme */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Variables */
+$fullWidth: 100%;
+$fullHeight: 100%;
+$white: #fff;
+$lightGray: #828282;
+$primary: #248eb1;
+/* functions */
+
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    width: 120px;
+    padding: 10px 20px;
+}
+.colorWhite{
+    color: $white;
+}
+.mainHeading{
+    font-size: 3em;
+    font-weight: bold;
+}
+.introPara{
+    font-size: 1.5em;
+    margin-top: -34px;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper{
+    margin: 0px !important;
+}
+.fullWidth{
+    width: $fullWidth;
+}
+.bookForm{
+    padding: 0 30px 15px 30px;
+    background: $white;
+    border-radius: 8px;
+}
+.bookBtn{
+    padding: 8px 16px !important;
+}
+.alignCenter{
+    text-align: center;
+}
+.benefitItem .icon{
+    position: relative !important;
+    top: 5px !important;
+    margin-right: 10px;
+}
+.mt6{
+    margin-top: 6px;
+}
+.m15{
+    margin: 15px 0;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt50{
+    margin-top: 50px;
+}
+.p10{
+    padding: 10px 0;
+}
+.colorGray{
+    color: $lightGray;
+}
+.reserveBtn{
+    padding: 5px 40px;
+    font-size: 17px;
+}
+.primary{
+    background: $primary !important;
+}
+.primaryColor{
+    color: $primary;
+}
+.tabContent{
+    width: 0.9*$fullWidth;
+    margin: 0 auto;
+}
+.parallaxBg{
+    background: url('https://www.suninternational.com/content/dam/suninternational/table-bay/accommodation/table-bay-executive-suite-2019.jpg.sunimage.1400.525.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.halfWidth{
+    width: 50%;
+}
+.parallaxOverlay{
+    background: rgba(36, 142, 177, 0.3);
+}
+.height400{
+    height: 400px;
+}
+.width100{
+    width: 150px;
+}
+.card{
+    padding: 30px !important;
+    width: 400px;
+    max-width: 500px;
+}

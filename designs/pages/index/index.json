@@ -1,0 +1,14 @@
+{
+    "appPageId": "b05d0422-fdd4-2bec-8e04-1aa300206e07",
+    "appPageName": "index",
+    "componentName": "indexComponent",
+    "selectorName": "bh-index",
+    "htmlFileName": "index.template.html",
+    "tsFileName": "index.component.ts",
+    "createDate": "2021-02-01T09:39:36.654Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

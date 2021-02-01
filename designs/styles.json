@@ -1,0 +1,32 @@
+{
+    "classes": [
+        "logo",
+        "colorWhite",
+        "mainHeading",
+        "introPara",
+        "mat-form-field-appearance-outline",
+        "mat-form-field-wrapper",
+        "fullWidth",
+        "bookForm",
+        "bookBtn",
+        "alignCenter",
+        "benefitItem",
+        "icon",
+        "mt6",
+        "m15",
+        "mt20",
+        "mt50",
+        "p10",
+        "colorGray",
+        "reserveBtn",
+        "primary",
+        "primaryColor",
+        "tabContent",
+        "parallaxBg",
+        "halfWidth",
+        "parallaxOverlay",
+        "height400",
+        "width100",
+        "card"
+    ]
+}
